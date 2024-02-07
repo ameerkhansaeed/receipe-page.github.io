@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Outfit', sans-serif;
+  color: hsl(24, 5%, 18%);
+  line-height: 1.5;
+  background-color: hsl(30, 54%, 90%);
+}
+
+.main-container {
+  margin: 2rem auto;
+  width: min(36rem, 100%);
+  padding: 2rem;
+  background-color: white;
+  border-radius: 2rem;
+}
+
+.main-header {
+  font-family: 'Young Serif', serif;
+  margin: 1rem 0;
+}
+
+ul {
+  width: 80%;
+  padding: 0 1rem;
+}
+
+ol {
+  width: 80%;
+  padding: 0 1rem;
+}
+
+li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}
+
+.preparation {
+  background-color: hsl(330, 100%, 98%);
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 1rem auto;
+}
+
+.list-paragraph {
+  color: hsl(332, 51%, 32%);
+  margin: 0.5rem 0;
+}
+
+.bald {
+  font-weight: 700;
+  color: hsl(30, 10%, 34%);
+}
+
+.paragraph-header {
+  font-family: 'Young Serif', serif;
+  color: hsl(14, 45%, 36%);
+  margin: 1rem 0;
+}
+
+.border {
+  border-top: 1px solid hsl(30, 18%, 87%);
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  padding: 0 0 1rem 0;
+  margin: 1rem 0;
+}
+
+table {
+  margin: 1rem 0;
+  width: 100%;
+  border-collapse: collapse;
+  line-height: 2;
+}
+
+table tr {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+table tr:last-child {
+  border: none;
+}
+
+.table-data {
+  font-weight: 700;
+  color: hsl(14, 45%, 36%);
+}
+
+.main-image {
+  max-width: 32rem;
+}
+
+img {
+  width: 100%;
+  border-radius: 1rem;
+}
